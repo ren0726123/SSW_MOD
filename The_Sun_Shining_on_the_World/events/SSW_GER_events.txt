@@ -202,3 +202,41 @@ country_event = {
 		HGR = { declare_war_on = { type = annex_everything    target = GER } }
 	}
 }
+country_event = {
+	id = SSW_GER.8
+	title = SSW_GER.8.t
+	desc = SSW_GER.8.d
+	picture = GFX_news_event_germany_victory
+	
+	major = yes
+	
+	trigger = {
+		10 = { is_controlled_by = GER }
+		10 = { is_owned_by = POL }
+		GER = { has_war_with = POL }
+	}
+	
+	
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.100.a
+		trigger = {
+			NOT = {
+				TAG = GER
+				TAG = POL
+			}
+		}
+	}
+	option = {
+		name = news.100.b
+		trigger = { TAG = GER }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = POL }
+	}
+}

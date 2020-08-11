@@ -27,6 +27,7 @@ ideas = {
 			picture = idea_eng_imperial_conscription #アイコンの写真
 			
 			modifier = {
+				surrender_limit = 10.0
 				training_time_army_factor = -0.25
 				non_core_manpower = 0.25
 				weekly_manpower = 2000
