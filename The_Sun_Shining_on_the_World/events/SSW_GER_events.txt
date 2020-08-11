@@ -212,11 +212,25 @@ country_event = {
 	
 	trigger = {
 
-		51 = { is_controlled_by = GER }
-		OR = { 51 = { is_controlled_by = HOL } }
+		51 = { 
+			is_controlled_by = GER
+			OR = { 
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		51 = { is_owned_by = HLH }
-		55 = { is_controlled_by = GER }
-		OR = { 55 = { is_controlled_by = HOL } }
+		55 = { 
+			is_controlled_by = GER 
+			OR = {
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		55 = { is_owned_by = HLH }
 		GER = { has_war_with = HLH }
 	}
@@ -245,14 +259,35 @@ country_event = {
 	
 	trigger = {
 
-		58 = { is_controlled_by = GER }
-		OR = { 58 = { is_controlled_by = HOL } }
+		58 = { 
+			is_controlled_by = GER 
+			OR = {
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		58 = { is_owned_by = LTV }
-		59 = { is_controlled_by = GER }
-		OR = { 59 = { is_controlled_by = HOL } }
+		59 = { 
+			is_controlled_by = GER 
+			OR = {
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		59 = { is_owned_by = LTV }
-		57 = { is_controlled_by = GER }
-		OR = { 57 = { is_controlled_by = HOL } }
+		57 = { 
+			is_controlled_by = GER 
+			OR = {
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		57 = { is_owned_by = LTV }
 		GER = { has_war_with = LTV }
 	}
@@ -281,14 +316,35 @@ country_event = {
 	
 	trigger = {
 
-		58 = { is_controlled_by = GER }
-		OR = { 	58 = { is_controlled_by = HOL } }
+		58 = { 
+			is_controlled_by = GER 
+			OR = {
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		58 = { is_owned_by = HGR }
-		59 = { is_controlled_by = GER }
-		OR = { 59 = { is_controlled_by = HOL } }
+		59 = { 
+			is_controlled_by = GER 
+			OR = {
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		59 = { is_owned_by = HGR }
-		57 = { is_controlled_by = GER }
-		OR = { 57 = { is_controlled_by = HOL } }
+		57 = { 
+			is_controlled_by = GER 
+			OR = {
+				is_controlled_by = HOL
+			}
+			OR = {
+				is_controlled_by = BEL
+			}
+		}
 		57 = { is_owned_by = HGR }
 		GER = { has_war_with = HGR }
 	}
