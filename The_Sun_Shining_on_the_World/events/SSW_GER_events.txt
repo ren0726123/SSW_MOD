@@ -213,10 +213,10 @@ country_event = {
 	trigger = {
 
 		51 = { is_controlled_by = GER }
-		OR = { 51 = { is_controlled_by = GER } }
+		OR = { 51 = { is_controlled_by = HOL } }
 		51 = { is_owned_by = HLH }
 		55 = { is_controlled_by = GER }
-		OR = { 55 = { is_controlled_by = GER } }
+		OR = { 55 = { is_controlled_by = HOL } }
 		55 = { is_owned_by = HLH }
 		GER = { has_war_with = HLH }
 	}
