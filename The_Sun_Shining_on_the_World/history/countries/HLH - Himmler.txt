@@ -118,6 +118,7 @@ create_import = {
 
 add_ideas = {
 	GER_idea_1
+	Emergency_conscription
 }
 
 
@@ -142,10 +143,7 @@ create_country_leader = {
 	picture = ".dds" # himmelr
 	expire = "1965.1.1"
 	ideology = nazism_ideology
-	traits = {
-		Drug_addict
-		Charisma
-	}
+	traits = {  }
 }
 
 create_country_leader = {
@@ -204,23 +202,23 @@ add_namespace = {
 create_field_marshal = {
 	name = "Heinrich Himmler"
 	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
-	traits = {old_guard thorough_planner}
+	traits = {trait_reckless organizer thorough_planner}
 	skill = 3
-	attack_skill = 3
-	defense_skill = 2
+	attack_skill = 2
+	defense_skill = 1
 	planning_skill = 3
-	logistics_skill = 2
+	logistics_skill = 1
 }
 
 create_corps_commander = {
 	name = "Paul Hausser"
 	picture = "Portrait_Germany_Friedrich_Paulus.dds"
 	traits = {panzer_leader career_officer old_guard}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 2
 }
 
 create_corps_commander = {

@@ -113,7 +113,7 @@ create_import = {
 }
 
 add_ideas = {
-	GER_idea_1
+	Emergency_conscription
 }
 
 
@@ -138,10 +138,7 @@ create_country_leader = {
 	picture = "ae0a772298f74491.dds"
 	expire = "1965.1.1"
 	ideology = nazism_ideology
-	traits = {
-		Drug_addict
-		Charisma
-	}
+	traits = { 	}
 }
 
 create_country_leader = {
