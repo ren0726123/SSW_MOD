@@ -230,12 +230,7 @@ country_event = {
 	}
 	
 	option = {
-		name = news.100.a
-		trigger = {
-			NOT = {
-				TAG = GER
-				TAG = POL
-			}
-		}
+		name = SSW_GER.8.a
+		add_war_support = 0.1
 	}
 }
