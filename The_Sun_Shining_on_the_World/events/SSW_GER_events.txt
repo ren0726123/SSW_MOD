@@ -211,12 +211,19 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		10 = { is_controlled_by = GER }
-		10 = { is_owned_by = POL }
-		GER = { has_war_with = POL }
+
+		51 = { is_controlled_by = GER }
+		51 = { is_owned_by = HLH }
+		55 = { is_controlled_by = GER }
+		55 = { is_owned_by = HLH }
+		50 = { is_controlled_by = GER }
+		50 = { is_owned_by = HLH }
+		GER = { has_war_with = HLH }
 	}
 	
-	
+	immediate = {
+		GER ={ annex_country = { target = HLH transfer_troops = yes } }
+	}
 	
 	mean_time_to_happen = {
 		days = 2
@@ -230,13 +237,5 @@ country_event = {
 				TAG = POL
 			}
 		}
-	}
-	option = {
-		name = news.100.b
-		trigger = { TAG = GER }
-	}
-	option = {
-		name = news.100.c
-		trigger = { TAG = POL }
 	}
 }
