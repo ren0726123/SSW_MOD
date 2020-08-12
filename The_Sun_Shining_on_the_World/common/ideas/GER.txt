@@ -2,13 +2,13 @@ ideas = {
 	country = {
 		GER_idea_1 = {
 			
-			allowed = {always = yes} #最初から常にあるか
+			allowed = {always = yes} 
 			
 			removal_cost = -1 #わかんね
 
 			allowed_civil_war = {always = yes}
 
-			picture = idea_eng_imperial_conscription #アイコンの写真
+			picture = generic_spy_political 
 			
 			modifier = {
 				custom_modifier_tooltip = GER_ssw_idea_1
@@ -18,20 +18,32 @@ ideas = {
 
 		Emergency_conscription = {
 			
-			allowed = {always = yes} #最初から常にあるか
+			allowed = {always = yes} 
 			
 			removal_cost = -1 #わかんね
 
 			allowed_civil_war = {always = yes}
 
-			picture = idea_eng_imperial_conscription #アイコンの写真
+			picture = GFX_idea_Emergency_conscription 
 			
 			modifier = {
-				surrender_limit = 10.0
 				training_time_army_factor = -0.25
 				non_core_manpower = 0.25
 				weekly_manpower = 2000
+			}
+		}
+		Protester = {
+			
+			allowed = {always = yes}
+			
+			removal_cost = -1 #わかんね
 
+			allowed_civil_war = {always = yes}
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				surrender_limit = 10.0
 			}
 		}
 	}

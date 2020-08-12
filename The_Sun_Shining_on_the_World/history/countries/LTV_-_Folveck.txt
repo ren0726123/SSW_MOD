@@ -114,6 +114,11 @@ create_import = {
 
 add_ideas = {
 	Emergency_conscription
+	Protester
+	
+	extensive_conscription
+	closed_economy
+	tot_economic_mobilisation
 }
 
 
@@ -133,15 +138,10 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Adolf Hitler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "ae0a772298f74491.dds"
+	name = "Paul Emil von Lettow-Vorbeck"
+	picture = "Vorbeck.dds"
 	expire = "1965.1.1"
 	ideology = nazism_ideology
-	traits = {
-		Drug_addict
-		Charisma
-	}
 }
 
 create_country_leader = {
