@@ -213,22 +213,22 @@ country_event = {
 	trigger = {
 
 		51 = { 
-			is_controlled_by = GER
 			OR = { 
-				is_controlled_by = HOL
-			}
-			OR = {
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
 			}
 		}
+
+
 		51 = { is_owned_by = HLH }
 		55 = { 
-			is_controlled_by = GER 
-			OR = {
-				is_controlled_by = HOL
-			}
-			OR = {
+			OR = { 
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
 			}
 		}
 		55 = { is_owned_by = HLH }
@@ -260,32 +260,32 @@ country_event = {
 	trigger = {
 
 		58 = { 
-			is_controlled_by = GER 
-			OR = {
-				is_controlled_by = HOL
-			}
-			OR = {
+			OR = { 
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
+				is_controlled_by = NFR
 			}
 		}
 		58 = { is_owned_by = LTV }
 		59 = { 
-			is_controlled_by = GER 
-			OR = {
-				is_controlled_by = HOL
-			}
-			OR = {
+			OR = { 
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
+				is_controlled_by = NFR
 			}
 		}
 		59 = { is_owned_by = LTV }
 		57 = { 
-			is_controlled_by = GER 
-			OR = {
-				is_controlled_by = HOL
-			}
-			OR = {
+			OR = { 
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
+				is_controlled_by = NFR
 			}
 		}
 		57 = { is_owned_by = LTV }
@@ -317,32 +317,32 @@ country_event = {
 	trigger = {
 
 		58 = { 
-			is_controlled_by = GER 
-			OR = {
-				is_controlled_by = HOL
-			}
-			OR = {
+			OR = { 
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
+				is_controlled_by = NFR
 			}
 		}
 		58 = { is_owned_by = HGR }
 		59 = { 
-			is_controlled_by = GER 
-			OR = {
-				is_controlled_by = HOL
-			}
-			OR = {
+			OR = { 
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
+				is_controlled_by = NFR
 			}
 		}
 		59 = { is_owned_by = HGR }
 		57 = { 
-			is_controlled_by = GER 
-			OR = {
-				is_controlled_by = HOL
-			}
-			OR = {
+			OR = { 
 				is_controlled_by = BEL
+				is_controlled_by = HOL
+				is_controlled_by = GER
+				is_controlled_by = DEN
+				is_controlled_by = NFR
 			}
 		}
 		57 = { is_owned_by = HGR }

@@ -119,6 +119,11 @@ create_import = {
 add_ideas = {
 	GER_idea_1
 	Emergency_conscription
+	Protester
+
+	extensive_conscription
+	closed_economy
+	tot_economic_mobilisation
 }
 
 
@@ -139,7 +144,6 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Heinrich Himmler"
-	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = ".dds" # himmelr
 	expire = "1965.1.1"
 	ideology = nazism_ideology
