@@ -144,7 +144,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Heinrich Himmler"
-	picture = ".dds" # himmelr
+	picture = "Himmler.dds" # himmelr
 	expire = "1965.1.1"
 	ideology = nazism_ideology
 	traits = {  }
