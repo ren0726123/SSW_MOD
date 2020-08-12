@@ -114,6 +114,9 @@ create_import = {
 
 add_ideas = {
 	GER_idea_1
+	limited_exports
+	limited_conscription
+	partial_economic_mobilisation
 }
 
 
