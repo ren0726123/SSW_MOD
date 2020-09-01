@@ -7,7 +7,6 @@ set_fuel_ratio = 0.8
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -114,8 +113,9 @@ create_import = {
 
 add_ideas = {
 	GER_idea_1
-	limited_exports
+	Air_force_conspiracy
 	limited_conscription
+	export_focus
 	partial_economic_mobilisation
 }
 
@@ -137,31 +137,56 @@ set_popularities = {
 
 create_faction = Germania_Accords
 add_to_faction = GER
-add_to_faction = FRA
+add_to_faction = CZE
+add_to_faction = SLO
+add_to_faction = POL
+add_to_faction = DEN
+add_to_faction = NOR
+add_to_faction = HOL
+add_to_faction = BEL
+add_to_faction = NFR
+add_to_faction = VFR
+add_to_faction = CRO
+add_to_faction = BAL
+add_to_faction = UKR
+add_to_faction = MOS
+add_to_faction = CSS
+add_to_faction = ATL
+add_to_faction = TOG
+add_to_faction = WAF
+add_to_faction = MAF
+add_to_faction = MAD
 add_to_faction = SPR
+add_to_faction = NAF
+add_to_faction = WES
+add_to_faction = EQG
+add_to_faction = POR
 
-set_autonomy = { target = BEL autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = HOL autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = NOR autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = SLO autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = BLR autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = POL autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = UKR autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = NFR autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = CRO autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = CCS autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = GEA autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = GMR autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = GSA autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = GWA autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = DEN autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = MOS autonomous_state = autonomy_integrated_puppet }
-set_autonomy = { target = POR autonomous_state = autonomy_integrated_puppet }
+set_autonomy = { target = CZE autonomous_state = reichsprotectorate }
+set_autonomy = { target = SLO autonomous_state = reichsatellite }
+set_autonomy = { target = POL autonomous_state = reichsprotectorate }
+set_autonomy = { target = DEN autonomous_state = reichsatellite }
+set_autonomy = { target = NOR autonomous_state = reichskommissariat }
+set_autonomy = { target = HOL autonomous_state = reichskommissariat }
+set_autonomy = { target = BEL autonomous_state = reichskommissariat }
+set_autonomy = { target = NFR autonomous_state = military_occupation_territory }	#軍占領地
+set_autonomy = { target = CRO autonomous_state = reichsatellite }
+set_autonomy = { target = BAL autonomous_state = reichskommissariat }
+set_autonomy = { target = UKR autonomous_state = reichskommissariat }
+set_autonomy = { target = MOS autonomous_state = reichskommissariat }
+set_autonomy = { target = CCS autonomous_state = reichskommissariat }
+set_autonomy = { target = ATL autonomous_state = reichskolonie }
+set_autonomy = { target = TOG autonomous_state = reichskolonie }
+set_autonomy = { target = WAF autonomous_state = reichskolonie }
+set_autonomy = { target = MAF autonomous_state = reichskolonie }
+set_autonomy = { target = MAD autonomous_state = reichskolonie }
+set_autonomy = { target = POR autonomous_state = reichsatellite }
+
 
 create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Hitler.dds"
+	picture = "gfx/leaders/GER/Portrait_Adolf_Hitler.dds"
 	expire = "1965.1.1"
 	ideology = nazism_ideology
 	traits = {
@@ -175,7 +200,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservatism_ideology
 	traits = {
 	}
 }
@@ -188,7 +213,7 @@ create_country_leader = {
 	ideology = stalinism
 	traits = {
 		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
-		exiled # He left in 1933 so he should still be exiled
+		 # He left in 1933 so he should still be exiled
 	}
 }
 

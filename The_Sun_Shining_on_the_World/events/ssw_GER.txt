@@ -153,6 +153,217 @@ country_event = {
 	option = {
 		name = SSW_GER.5.a
 		hidden_effect = {
+			random_unit_leader = {
+				limit = {
+					has_id = 1
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 2
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 3
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 4
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 5
+				}
+				retire = yes
+			}
+
+			random_unit_leader = {
+				limit = {
+					has_id = 6
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 7
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 8
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 9
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 10
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 11
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 12
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 13
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 14
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 15
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 16
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 17
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 18
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 19
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 20
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 21
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 22
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 23
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 24
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 25
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 26
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 27
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 28
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 29
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 30
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 31
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 32
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 33
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 34
+				}
+				retire = yes
+			}
+			random_unit_leader = {
+				limit = {
+					has_id = 35
+				}
+				retire = yes
+			}
 			delete_unit_template_and_units = {Division_template = "Infanterie-Division"}
 			delete_unit_template_and_units = {Division_template = "Fallschirmjäger-Division"}
 			delete_unit_template_and_units = {Division_template = "Infanterie-Division (mot.)"}
@@ -176,17 +387,19 @@ country_event = {
 	picture = GFX_Gering_speech
 
 	is_triggered_only = yes
-	immediate = {
-		LTV = { country_event = { id = SSW_LTV.1  } }
-		HLH = { country_event = { id = SSW_HLH.1  } }
-		HGR = { country_event = { id = SSW_HGR.1  } }
 
-	}
 	option = {
 		name = SSW_GER.6.a
 		hidden_effect = {
+			LTV = { country_event = { id = SSW_LTV.1  } }
+			HLH = { country_event = { id = SSW_HLH.1  } }
+			HGR = { country_event = { id = SSW_HGR.1  } }
 			load_oob = "GER_Civil_War"
 			GER = { country_event = { id = SSW_GER.7 days = 2 } }
+		}
+		GER = {
+			add_ideas = tot_economic_mobilisation
+			add_ideas = service_by_requirement
 		}
 		custom_effect_tooltip = SSW_GER.6.b
 	}
@@ -202,10 +415,18 @@ country_event = {
 		HGR = { declare_war_on = { type = annex_everything    target = GER } }
 	}
 }
+
 country_event = {
 	id = SSW_GER.8
-	title = SSW_GER.8.t
-	desc = SSW_GER.8.d
+
+
+
+}
+
+country_event = {
+	id = SSW_GER.9
+	title = SSW_GER.9.t
+	desc = SSW_GER.9.d
 	picture = GFX_news_event_germany_victory
 	
 	major = yes
@@ -244,15 +465,15 @@ country_event = {
 	}
 	
 	option = {
-		name = SSW_GER.8.a
+		name = SSW_GER.9.a
 		add_war_support = 0.1
 	}
 }
 
 country_event = {
-	id = SSW_GER.9
-	title = SSW_GER.9.t
-	desc = SSW_GER.9.d
+	id = SSW_GER.10
+	title = SSW_GER.10.t
+	desc = SSW_GER.10.d
 	picture = GFX_news_event_germany_victory
 	
 	major = yes
@@ -301,15 +522,15 @@ country_event = {
 	}
 	
 	option = {
-		name = SSW_GER.9.a
+		name = SSW_GER.10.a
 		add_war_support = 0.1
 	}
 }
 
 country_event = {
-	id = SSW_GER.10
-	title = SSW_GER.10.t
-	desc = SSW_GER.10.d
+	id = SSW_GER.11
+	title = SSW_GER.11.t
+	desc = SSW_GER.11.d
 	picture = GFX_news_event_germany_victory
 	
 	major = yes
@@ -358,7 +579,8 @@ country_event = {
 	}
 	
 	option = {
-		name = SSW_GER.10.a
+		name = SSW_GER.11.a
 		add_war_support = 0.1
 	}
+
 }

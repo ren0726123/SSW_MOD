@@ -1,12 +1,7 @@
-﻿capital = 64
+capital = 64
 
-oob = "HLH_1950"
 
 set_fuel_ratio = 0.8
-
-create_faction = revolt_union
-add_to_faction = HGR
-add_to_faction = LTV
 
 # Starting tech
 set_technology = {
@@ -118,10 +113,9 @@ create_import = {
 
 add_ideas = {
 	tot_economic_mobilisation
-	all_adults_serve
+	service_by_requirement
 	Protester
 	Emergency_conscription
-	GER_idea_1
 }
 
 
@@ -141,13 +135,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Heinrich Himmler"
+	name = "Helman Gering"
 	desc = ""
-	picture = "Portrait_Himmler.dds"
+	picture = "Portrait_Gering.dds"
 	expire = "1965.1.1"
 	ideology = nazism_ideology
 	traits = {
-
+		
 	}
 }
 
